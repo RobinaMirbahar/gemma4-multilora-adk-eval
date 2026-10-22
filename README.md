@@ -1,6 +1,6 @@
 # Dynamic Multi-LoRA Hot-Swapping & CI/CD Agent Evaluation (`adk eval`) on Cloud Run GPUs with Gemma 4 & vLLM
 
-![Cover](assets/cover.multilora.v2.jpg)
+![Cover](https://raw.githubusercontent.com/RobinaMirbahar/gemma4-multilora-adk-eval/main/assets/cover.multilora.v2.jpg)
 
 Official reference repository for the hands-on Google Codelab: **Dynamic Multi-LoRA Hot-Swapping & CI/CD Agent Evaluation (`adk eval`) on Cloud Run GPUs with Gemma 4 & vLLM**.
 
@@ -10,13 +10,13 @@ Official reference repository for the hands-on Google Codelab: **Dynamic Multi-L
 
 Instead of deploying three separate Cloud Run GPU services for three fine-tuned specialist agents, this architecture loads frozen open-weights **Gemma 4 (`google/gemma-4-27b-it`)** once into a single **Cloud Run NVIDIA L4 GPU** and dynamically hot-swaps lightweight rank-16 QLoRA adapters (~64.5 MB VRAM overhead each) from **Cloud Storage FUSE** (`/mnt/models/loras/*`) in under **2 milliseconds**:
 
-![Multi-LoRA Architecture](assets/multilora_cloud_run_gpu_arch.jpg)
+![Multi-LoRA Architecture](https://raw.githubusercontent.com/RobinaMirbahar/gemma4-multilora-adk-eval/main/assets/multilora_cloud_run_gpu_arch.jpg)
 
 Every prompt or LoRA adapter update is gated in **Google Cloud Build** using **Google ADK's evaluation framework (`adk eval`)** across two deterministic metrics before shifting production traffic:
 * **`tool_trajectory_avg_score` ($\ge 0.95$):** Verifies exact tool-call sequence and JSON arguments.
 * **`response_match_score` ($\ge 0.85$):** Verifies ROUGE token-level factuality against the Golden Evaluation Dataset.
 
-![ADK Eval CI/CD Gate](assets/adk_eval_cicd_release_gate.jpg)
+![ADK Eval CI/CD Gate](https://raw.githubusercontent.com/RobinaMirbahar/gemma4-multilora-adk-eval/main/assets/adk_eval_cicd_release_gate.jpg)
 
 ---
 
@@ -77,17 +77,15 @@ python3 scripts/run_multilora_adk_eval.py
 
 ---
 
----
-
 ## Cloud Shell Execution & Editor Screenshots
 
 | Cloud Shell Editor (`vllm_multilora_router.py`) | Cloud Shell Editor (`agent.py`) |
 | :---: | :---: |
-| ![vLLM Router](assets/screenshots/04_editor_vllm_multilora_router.png) | ![ADK Coordinator](assets/screenshots/05_editor_adk_agent.png) |
+| ![vLLM Router](https://raw.githubusercontent.com/RobinaMirbahar/gemma4-multilora-adk-eval/main/assets/screenshots/04_editor_vllm_multilora_router.png) | ![ADK Coordinator](https://raw.githubusercontent.com/RobinaMirbahar/gemma4-multilora-adk-eval/main/assets/screenshots/05_editor_adk_agent.png) |
 
 | ADK Eval Stage 1–3 Verdict | Validated `EvalSuiteSummary` JSON |
 | :---: | :---: |
-| ![Eval Verdict](assets/screenshots/07_terminal_eval_stages_verdict.png) | ![Eval JSON](assets/screenshots/08_terminal_eval_json_output.png) |
+| ![Eval Verdict](https://raw.githubusercontent.com/RobinaMirbahar/gemma4-multilora-adk-eval/main/assets/screenshots/07_terminal_eval_stages_verdict.png) | ![Eval JSON](https://raw.githubusercontent.com/RobinaMirbahar/gemma4-multilora-adk-eval/main/assets/screenshots/08_terminal_eval_json_output.png) |
 
 
 ---
@@ -97,7 +95,7 @@ python3 scripts/run_multilora_adk_eval.py
 <div align="center">
   <img src="https://raw.githubusercontent.com/RobinaMirbahar/RobinaMirbahar/main/ProfileImages/Hi-Robina.gif" height="75" width="75" alt="Robina Mirbahar" />
 
-  ### **Robina Mirbahar — Google Cloud & AI Architect**
+  <h3><strong>Robina Mirbahar — Google Cloud &amp; AI Architect</strong></h3>
 
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=4285F4&center=true&vCenter=true&width=720&lines=Google+Cloud+%26+Agentic+AI+Solutions+Architect;Author+of+'AI+Engineering'+(2026);Pakistan+Lead+%40+IEEE+AI+Caravan+(94+Countries);Women+Techmakers+Ambassador+%26+Mentor+%40+Google+for+Startups" alt="Robina Mirbahar Dynamic Headline" />
 
