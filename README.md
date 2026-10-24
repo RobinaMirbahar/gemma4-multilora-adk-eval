@@ -98,5 +98,5 @@ python3 scripts/run_multilora_adk_eval.py
 If this project is helpful to your work:
 * **Star this Repository:** [**Star `RobinaMirbahar/gemma4-multilora-adk-eval` on GitHub**](https://github.com/RobinaMirbahar/gemma4-multilora-adk-eval) to bookmark it and help others discover it.
 * **Fork & Customize:** [**Fork `RobinaMirbahar/gemma4-multilora-adk-eval`**](https://github.com/RobinaMirbahar/gemma4-multilora-adk-eval/fork) to build and experiment with your own workflows.
-* **Sponsor on GitHub:** [**Sponsor `@RobinaMirbahar` on GitHub Sponsors (`github.com/sponsors/RobinaMirbahar`)**](https://github.com/sponsors/RobinaMirbahar) to support open-source AI, Google Cloud, and Gemini engineering projects!
+* **Sponsor on GitHub:** [**Sponsor `@RobinaMirbahar` on GitHub Sponsors (`github.com/sponsors/RobinaMirbahar`)**](https://github.com/sponsors/RobinaMirbahar) to support future open-source [**Google (`@google`)**](https://github.com/google), [**Google Gemini (`@google-gemini`)**](https://github.com/google-gemini), [**Google DeepMind (`@google-deepmind`)**](https://github.com/google-deepmind), and [**Google Cloud (`@GoogleCloudPlatform`)**](https://github.com/GoogleCloudPlatform) cookbooks!
 
