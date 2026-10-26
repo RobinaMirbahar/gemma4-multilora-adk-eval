@@ -86,17 +86,3 @@ python3 scripts/run_multilora_adk_eval.py
 | ADK Eval Stage 1–3 Verdict | Validated `EvalSuiteSummary` JSON |
 | :---: | :---: |
 | ![Eval Verdict](https://raw.githubusercontent.com/RobinaMirbahar/gemma4-multilora-adk-eval/main/assets/screenshots/07_terminal_eval_stages_verdict.png) | ![Eval JSON](https://raw.githubusercontent.com/RobinaMirbahar/gemma4-multilora-adk-eval/main/assets/screenshots/08_terminal_eval_json_output.png) |
-
----
-
-## Star, Fork & Sponsor This Project
-
-[![Star on GitHub](https://img.shields.io/github/stars/RobinaMirbahar/gemma4-multilora-adk-eval?style=for-the-badge&logo=github&label=Star)](https://github.com/RobinaMirbahar/gemma4-multilora-adk-eval)
-[![Fork on GitHub](https://img.shields.io/github/forks/RobinaMirbahar/gemma4-multilora-adk-eval?style=for-the-badge&logo=github&label=Fork)](https://github.com/RobinaMirbahar/gemma4-multilora-adk-eval/fork)
-[![Sponsor RobinaMirbahar](https://img.shields.io/badge/Sponsor-%40RobinaMirbahar-ea4aaa?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/RobinaMirbahar)
-
-If this project is helpful to your work:
-* **Star this Repository:** [**Star `RobinaMirbahar/gemma4-multilora-adk-eval` on GitHub**](https://github.com/RobinaMirbahar/gemma4-multilora-adk-eval) to bookmark it and help others discover it.
-* **Fork & Customize:** [**Fork `RobinaMirbahar/gemma4-multilora-adk-eval`**](https://github.com/RobinaMirbahar/gemma4-multilora-adk-eval/fork) to build and experiment with your own workflows.
-* **Sponsor on GitHub:** [**Sponsor `@RobinaMirbahar` on GitHub Sponsors (`github.com/sponsors/RobinaMirbahar`)**](https://github.com/sponsors/RobinaMirbahar) to support future open-source [**Google (`@google`)**](https://github.com/google), [**Google Gemini (`@google-gemini`)**](https://github.com/google-gemini), [**Google DeepMind (`@google-deepmind`)**](https://github.com/google-deepmind), and [**Google Cloud (`@GoogleCloudPlatform`)**](https://github.com/GoogleCloudPlatform) cookbooks!
-
