@@ -1,0 +1,301 @@
+pair_id,instance_id,repo,task_domain,tool_name,command_t1,command_t2,jaccard_similarity,exit_code_t1,exit_code_t2,is_pathological_loop,loop_taxonomy,ccr_recovery_turns
+PAIR-001,fastapi_15661,fastapi/fastapi,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-002,fastapi_15661,fastapi/fastapi,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-003,fastapi_15588,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-004,fastapi_15588,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-005,fastapi_15589,fastapi/fastapi,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-006,fastapi_15589,fastapi/fastapi,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-007,fastapi_15030,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-008,fastapi_15030,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-009,fastapi_14962,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-010,fastapi_14962,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-011,fastapi_15280,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-012,fastapi_15280,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-013,fastapi_14964,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-014,fastapi_14964,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-015,fastapi_15023,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,2
+PAIR-016,fastapi_15023,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-017,fastapi_14986,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-018,fastapi_14986,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-019,fastapi_14978,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-020,fastapi_14978,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-021,requests_7505,psf/requests,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-022,requests_7505,psf/requests,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-023,requests_7502,psf/requests,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-024,requests_7502,psf/requests,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-025,requests_7433,psf/requests,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-026,requests_7433,psf/requests,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-027,requests_7427,psf/requests,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-028,requests_7427,psf/requests,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-029,requests_7315,psf/requests,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-030,requests_7315,psf/requests,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-031,requests_7328,psf/requests,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-032,requests_7328,psf/requests,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-033,requests_7309,psf/requests,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-034,requests_7309,psf/requests,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-035,requests_7205,psf/requests,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-036,requests_7205,psf/requests,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-037,rich_4070,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-038,rich_4070,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-039,rich_4077,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-040,rich_4077,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-041,rich_4079,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-042,rich_4079,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-043,rich_4076,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-044,rich_4076,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-045,rich_4075,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-046,rich_4075,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-047,rich_4006,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-048,rich_4006,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-049,fastapi_14258,fastapi/fastapi,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-050,fastapi_14258,fastapi/fastapi,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-051,fastapi_14851,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-052,fastapi_14851,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-053,fastapi_14873,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-054,fastapi_14873,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-055,fastapi_13920,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-056,fastapi_13920,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-057,fastapi_14794,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-058,fastapi_14794,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-059,fastapi_14786,fastapi/fastapi,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-060,fastapi_14786,fastapi/fastapi,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-061,fastapi_14492,fastapi/fastapi,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-062,fastapi_14492,fastapi/fastapi,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-063,fastapi_14479,fastapi/fastapi,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-064,fastapi_14479,fastapi/fastapi,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-065,fastapi_14463,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-066,fastapi_14463,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-067,fastapi_12942,fastapi/fastapi,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-068,fastapi_12942,fastapi/fastapi,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-069,fastapi_14099,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-070,fastapi_14099,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-071,fastapi_14609,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-072,fastapi_14609,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-073,fastapi_14372,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-074,fastapi_14372,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-075,fastapi_14349,fastapi/fastapi,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-076,fastapi_14349,fastapi/fastapi,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-077,fastapi_14512,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-078,fastapi_14512,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-079,fastapi_14487,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,2
+PAIR-080,fastapi_14487,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-081,fastapi_11355,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-082,fastapi_11355,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-083,fastapi_14485,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-084,fastapi_14485,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-085,fastapi_14482,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-086,fastapi_14482,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-087,fastapi_14306,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-088,fastapi_14306,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-089,fastapi_14458,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-090,fastapi_14458,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-091,fastapi_14459,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-092,fastapi_14459,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-093,fastapi_14448,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-094,fastapi_14448,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-095,fastapi_14455,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-096,fastapi_14455,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-097,fastapi_9753,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-098,fastapi_9753,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-099,fastapi_14430,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-100,fastapi_14430,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-101,fastapi_5077,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-102,fastapi_5077,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-103,fastapi_9555,fastapi/fastapi,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-104,fastapi_9555,fastapi/fastapi,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-105,fastapi_14361,fastapi/fastapi,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-106,fastapi_14361,fastapi/fastapi,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-107,fastapi_13207,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-108,fastapi_13207,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-109,fastapi_14360,fastapi/fastapi,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-110,fastapi_14360,fastapi/fastapi,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-111,fastapi_14356,fastapi/fastapi,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-112,fastapi_14356,fastapi/fastapi,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-113,fastapi_5624,fastapi/fastapi,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-114,fastapi_5624,fastapi/fastapi,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-115,fastapi_14419,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-116,fastapi_14419,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-117,fastapi_14301,fastapi/fastapi,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-118,fastapi_14301,fastapi/fastapi,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-119,fastapi_14262,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-120,fastapi_14262,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-121,fastapi_14266,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-122,fastapi_14266,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-123,fastapi_14246,fastapi/fastapi,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-124,fastapi_14246,fastapi/fastapi,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-125,fastapi_14186,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-126,fastapi_14186,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-127,fastapi_9425,fastapi/fastapi,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-128,fastapi_9425,fastapi/fastapi,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-129,fastapi_13713,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-130,fastapi_13713,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-131,fastapi_14077,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-132,fastapi_14077,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-133,rich_3718,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-134,rich_3718,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-135,rich_3934,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-136,rich_3934,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-137,rich_3953,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-138,rich_3953,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-139,rich_3944,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-140,rich_3944,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-141,rich_3942,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-142,rich_3942,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-143,rich_3938,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-144,rich_3938,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-145,rich_3882,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-146,rich_3882,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-147,rich_3894,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-148,rich_3894,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-149,rich_3935,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-150,rich_3935,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-151,rich_3905,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-152,rich_3905,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-153,rich_3930,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-154,rich_3930,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-155,httpx_3672,encode/httpx,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-156,httpx_3672,encode/httpx,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-157,fastapi_14791,fastapi/fastapi,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-158,fastapi_14791,fastapi/fastapi,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-159,fastapi_15800,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-160,fastapi_15800,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-161,fastapi_15785,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-162,fastapi_15785,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-163,fastapi_14371,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-164,fastapi_14371,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-165,fastapi_14605,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-166,fastapi_14605,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-167,fastapi_15763,fastapi/fastapi,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-168,fastapi_15763,fastapi/fastapi,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-169,fastapi_14583,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-170,fastapi_14583,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-171,fastapi_15745,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-172,fastapi_15745,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-173,fastapi_14297,fastapi/fastapi,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-174,fastapi_14297,fastapi/fastapi,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-175,fastapi_14303,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,2
+PAIR-176,fastapi_14303,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-177,fastapi_13537,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,2
+PAIR-178,fastapi_13537,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-179,fastapi_14953,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-180,fastapi_14953,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-181,fastapi_13786,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-182,fastapi_13786,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-183,fastapi_14616,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-184,fastapi_14616,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-185,fastapi_11194,fastapi/fastapi,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,2
+PAIR-186,fastapi_11194,fastapi/fastapi,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-187,requests_6757,psf/requests,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-188,requests_6757,psf/requests,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-189,requests_6629,psf/requests,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-190,requests_6629,psf/requests,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-191,requests_6644,psf/requests,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-192,requests_6644,psf/requests,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-193,requests_6589,psf/requests,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-194,requests_6589,psf/requests,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-195,requests_6592,psf/requests,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-196,requests_6592,psf/requests,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-197,rich_3180,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-198,rich_3180,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-199,rich_3486,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-200,rich_3486,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-201,rich_3777,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-202,rich_3777,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-203,rich_3468,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-204,rich_3468,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-205,rich_3782,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-206,rich_3782,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-207,rich_3772,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-208,rich_3772,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-209,rich_3296,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-210,rich_3296,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-211,rich_3675,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-212,rich_3675,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-213,rich_3676,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-214,rich_3676,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-215,rich_3518,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-216,rich_3518,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-217,rich_3535,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-218,rich_3535,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-219,rich_3521,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-220,rich_3521,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-221,rich_3506,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-222,rich_3506,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-223,rich_3480,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-224,rich_3480,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-225,rich_3472,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-226,rich_3472,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-227,rich_3454,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-228,rich_3454,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-229,rich_3471,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-230,rich_3471,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-231,rich_3470,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-232,rich_3470,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-233,rich_3469,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-234,rich_3469,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-235,rich_3052,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-236,rich_3052,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-237,rich_3278,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-238,rich_3278,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-239,rich_2943,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-240,rich_2943,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-241,rich_2725,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-242,rich_2725,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-243,rich_3105,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-244,rich_3105,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-245,rich_3130,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-246,rich_3130,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-247,rich_3043,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-248,rich_3043,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-249,rich_3067,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-250,rich_3067,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-251,rich_3006,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-252,rich_3006,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-253,rich_3064,Textualize/rich,Depth1_D1,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_I_Error_Stagnation,1
+PAIR-254,rich_3064,Textualize/rich,Depth1_D1,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-255,rich_3063,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-256,rich_3063,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-257,rich_3061,Textualize/rich,LogDepthPause_LDP,run_command,pytest tests/test_unknown.py -k module,pytest tests/test_unknown.py -k module -vv,0.8,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-258,rich_3061,Textualize/rich,LogDepthPause_LDP,edit_file,read_file unknown.py 1 120,edit_file unknown.py :: module,0.143,0,0,False,Productive_Orthogonal_Transition,0
+PAIR-259,httpx-trap-01,httpx,Cross-Origin Redirect Auth Leakage,edit_file,edit_file httpx/httpx-trap-01.py :: build_redirect_headers (trap_patch v1),edit_file httpx/httpx-trap-01.py :: build_redirect_headers (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-260,httpx-trap-01,httpx,Cross-Origin Redirect Auth Leakage,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> httpx-trap-01,pytest tests/test_httpx-trap-01.py -k build_redirect_headers (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-261,httpx-trap-02,httpx,Query Param Multi-Value Merging,edit_file,edit_file httpx/httpx-trap-02.py :: merge_query_params (trap_patch v1),edit_file httpx/httpx-trap-02.py :: merge_query_params (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-262,httpx-trap-02,httpx,Query Param Multi-Value Merging,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> httpx-trap-02,pytest tests/test_httpx-trap-02.py -k merge_query_params (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-263,httpx-trap-03,httpx,Timeout Tuple Unpacking Precedence,edit_file,edit_file httpx/httpx-trap-03.py :: resolve_timeout (trap_patch v1),edit_file httpx/httpx-trap-03.py :: resolve_timeout (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-264,httpx-trap-03,httpx,Timeout Tuple Unpacking Precedence,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> httpx-trap-03,pytest tests/test_httpx-trap-03.py -k resolve_timeout (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-265,httpx-trap-04,httpx,Content-Length vs Transfer-Encoding Chunked,edit_file,edit_file httpx/httpx-trap-04.py :: prepare_stream_headers (trap_patch v1),edit_file httpx/httpx-trap-04.py :: prepare_stream_headers (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-266,httpx-trap-04,httpx,Content-Length vs Transfer-Encoding Chunked,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> httpx-trap-04,pytest tests/test_httpx-trap-04.py -k prepare_stream_headers (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-267,httpx-trap-05,httpx,IPv6 Host Header Bracket Formatting,edit_file,edit_file httpx/httpx-trap-05.py :: format_host_header (trap_patch v1),edit_file httpx/httpx-trap-05.py :: format_host_header (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-268,httpx-trap-05,httpx,IPv6 Host Header Bracket Formatting,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> httpx-trap-05,pytest tests/test_httpx-trap-05.py -k format_host_header (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-269,requests-trap-06,requests,Session Cookie Domain Dot-Prefix Matching,edit_file,edit_file requests/requests-trap-06.py :: cookie_domain_matches (trap_patch v1),edit_file requests/requests-trap-06.py :: cookie_domain_matches (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-270,requests-trap-06,requests,Session Cookie Domain Dot-Prefix Matching,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> requests-trap-06,pytest tests/test_requests-trap-06.py -k cookie_domain_matches (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-271,requests-trap-07,requests,Case-Insensitive Header Dict Lookup & Preservation,edit_file,edit_file requests/requests-trap-07.py :: update_headers (trap_patch v1),edit_file requests/requests-trap-07.py :: update_headers (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-272,requests-trap-07,requests,Case-Insensitive Header Dict Lookup & Preservation,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> requests-trap-07,pytest tests/test_requests-trap-07.py -k update_headers (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-273,requests-trap-08,requests,Netrc Auth Fallback vs Explicit Empty Auth,edit_file,edit_file requests/requests-trap-08.py :: resolve_auth (trap_patch v1),edit_file requests/requests-trap-08.py :: resolve_auth (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-274,requests-trap-08,requests,Netrc Auth Fallback vs Explicit Empty Auth,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> requests-trap-08,pytest tests/test_requests-trap-08.py -k resolve_auth (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-275,requests-trap-09,requests,Redirect Method Preservation on 307/308 vs 302/303,edit_file,edit_file requests/requests-trap-09.py :: resolve_redirect_method_and_headers (trap_patch v1),edit_file requests/requests-trap-09.py :: resolve_redirect_method_and_headers (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-276,requests-trap-09,requests,Redirect Method Preservation on 307/308 vs 302/303,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> requests-trap-09,pytest tests/test_requests-trap-09.py -k resolve_redirect_method_and_headers (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-277,requests-trap-10,requests,NO_PROXY CIDR & Wildcard Subdomain Bypass,edit_file,edit_file requests/requests-trap-10.py :: should_bypass_proxy (trap_patch v1),edit_file requests/requests-trap-10.py :: should_bypass_proxy (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-278,requests-trap-10,requests,NO_PROXY CIDR & Wildcard Subdomain Bypass,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> requests-trap-10,pytest tests/test_requests-trap-10.py -k should_bypass_proxy (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-279,fastapi-trap-11,fastapi,Response Model `exclude_unset` Default Mutation,edit_file,edit_file fastapi/fastapi-trap-11.py :: serialize_response (trap_patch v1),edit_file fastapi/fastapi-trap-11.py :: serialize_response (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-280,fastapi-trap-11,fastapi,Response Model `exclude_unset` Default Mutation,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> fastapi-trap-11,pytest tests/test_fastapi-trap-11.py -k serialize_response (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-281,fastapi-trap-12,fastapi,Dependency Injection Cache Key with `use_cache=False`,edit_file,edit_file fastapi/fastapi-trap-12.py :: resolve_dep (trap_patch v1),edit_file fastapi/fastapi-trap-12.py :: resolve_dep (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-282,fastapi-trap-12,fastapi,Dependency Injection Cache Key with `use_cache=False`,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> fastapi-trap-12,pytest tests/test_fastapi-trap-12.py -k resolve_dep (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-283,fastapi-trap-13,fastapi,APIRouter Prefix & Path Trailing Slash Normalization,edit_file,edit_file fastapi/fastapi-trap-13.py :: join_route_path (trap_patch v1),edit_file fastapi/fastapi-trap-13.py :: join_route_path (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-284,fastapi-trap-13,fastapi,APIRouter Prefix & Path Trailing Slash Normalization,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> fastapi-trap-13,pytest tests/test_fastapi-trap-13.py -k join_route_path (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-285,fastapi-trap-14,fastapi,JSON Encoder Custom Enum & Set Serialization,edit_file,edit_file fastapi/fastapi-trap-14.py :: encode_jsonable (trap_patch v1),edit_file fastapi/fastapi-trap-14.py :: encode_jsonable (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-286,fastapi-trap-14,fastapi,JSON Encoder Custom Enum & Set Serialization,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> fastapi-trap-14,pytest tests/test_fastapi-trap-14.py -k encode_jsonable (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-287,fastapi-trap-15,fastapi,BackgroundTask Exception Suppression in Middleware Chain,edit_file,edit_file fastapi/fastapi-trap-15.py :: run_background_tasks (trap_patch v1),edit_file fastapi/fastapi-trap-15.py :: run_background_tasks (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-288,fastapi-trap-15,fastapi,BackgroundTask Exception Suppression in Middleware Chain,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> fastapi-trap-15,pytest tests/test_fastapi-trap-15.py -k run_background_tasks (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-289,rich-trap-16,rich,ANSI SGR Escape Code Visible Width Calculation,edit_file,edit_file rich/rich-trap-16.py :: visible_cell_len (trap_patch v1),edit_file rich/rich-trap-16.py :: visible_cell_len (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-290,rich-trap-16,rich,ANSI SGR Escape Code Visible Width Calculation,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> rich-trap-16,pytest tests/test_rich-trap-16.py -k visible_cell_len (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-291,rich-trap-17,rich,Markup Escaping with Double-Bracket Literal Syntax,edit_file,edit_file rich/rich-trap-17.py :: strip_rich_markup (trap_patch v1),edit_file rich/rich-trap-17.py :: strip_rich_markup (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-292,rich-trap-17,rich,Markup Escaping with Double-Bracket Literal Syntax,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> rich-trap-17,pytest tests/test_rich-trap-17.py -k strip_rich_markup (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-293,rich-trap-18,rich,Table Column Ratio Rounding Remainder Distribution,edit_file,edit_file rich/rich-trap-18.py :: allocate_widths (trap_patch v1),edit_file rich/rich-trap-18.py :: allocate_widths (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-294,rich-trap-18,rich,Table Column Ratio Rounding Remainder Distribution,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> rich-trap-18,pytest tests/test_rich-trap-18.py -k allocate_widths (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-295,rich-trap-19,rich,Progress Task Elapsed Time Freeze After Completion,edit_file,edit_file rich/rich-trap-19.py :: get_elapsed (trap_patch v1),edit_file rich/rich-trap-19.py :: get_elapsed (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-296,rich-trap-19,rich,Progress Task Elapsed Time Freeze After Completion,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> rich-trap-19,pytest tests/test_rich-trap-19.py -k get_elapsed (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-297,rich-trap-20,rich,Soft-Wrap Word Splitter Preserving Trailing Spaces,edit_file,edit_file rich/rich-trap-20.py :: wrap_line (trap_patch v1),edit_file rich/rich-trap-20.py :: wrap_line (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-298,rich-trap-20,rich,Soft-Wrap Word Splitter Preserving Trailing Spaces,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> rich-trap-20,pytest tests/test_rich-trap-20.py -k wrap_line (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
+PAIR-299,sci-trap-21,sci_compute,0-Based Half-Open BED vs 1-Based Closed VCF Coordinate Conversion,edit_file,edit_file sci_compute/sci-trap-21.py :: vcf_to_bed (trap_patch v1),edit_file sci_compute/sci-trap-21.py :: vcf_to_bed (trap_patch v2),0.714,1,1,True,Type_II_Diff_Oscillation,2
+PAIR-300,sci-trap-21,sci_compute,0-Based Half-Open BED vs 1-Based Closed VCF Coordinate Conversion,run_command,prune_messages <NEGATIVE_CONSTRAINT_LEDGER> sci-trap-21,pytest tests/test_sci-trap-21.py -k vcf_to_bed (PASS),0.0,0,0,False,CCR_Ledger_Escape,1
