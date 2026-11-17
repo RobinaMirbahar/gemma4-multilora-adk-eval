@@ -11,7 +11,7 @@
 [![Competition](https://img.shields.io/badge/Kaggle-Gemma_4_Developer_Agent_Paper_Track-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/writeups/gemma-4-loop-breaker-ccr-and-trap-25-benchmark)
 [![Model](https://img.shields.io/badge/Model-Gemma_4_Multi_LoRA-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://www.kaggle.com/competitions/gemma-4-developer-agent)
 [![Evaluation](https://img.shields.io/badge/Evaluation-Google_ADK_Eval-0F9D58?style=for-the-badge&logo=googlecloud&logoColor=white)](https://github.com/RobinaMirbahar/gemma4-multilora-adk-eval)
-[![Serving](https://img.shields.io/badge/Serving-vLLM_on_Cloud_Run_GPU-F4B400?style=for-the-badge&logo=docker&logoColor=white)](https://cloud.google.com/run/docs/configuring/services/gpu)
+[![Serving](https://img.shields.io/badge/Serving-vLLM_on_Cloud_Run_GPU-F4B400?style=for-the-badge&logo=docker&logoColor=white)](https://cloud.google.com/run/docs/configuring/services/gpu?utm_campaign=deveco_gdemembers&utm_source=deveco)
 [![Author](https://img.shields.io/badge/Author-Robina_Mirbahar_(GDE)-EA4335?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RobinaMirbahar)
 
 </div>
