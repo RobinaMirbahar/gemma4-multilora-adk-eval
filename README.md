@@ -16,7 +16,8 @@
 
 </div>
 
-> **Author & Architect:** [**Robina Mirbahar**](https://github.com/RobinaMirbahar) (*Google Developer Expert in Cloud & AI · Google Cloud Champion Innovator*)  
+> **Author & Architect:** [Robina Mirbahar](https://github.com/RobinaMirbahar) ([Google Developer Expert in Cloud & AI](https://developers.google.com/profile/u/106918534005910641104?utm_campaign=deveco_gdemembers&utm_source=deveco) · Google Cloud Champion Innovator · Co-Author of [*AI Engineering*](https://www.amazon.com/dp/B0GWCZWCF4))  
+> 📚 **Architecture Track:** Dynamic Multi-LoRA Hot-Swapping & CI/CD Agent Trajectory Evaluation (dk eval) on Cloud Run GPUs  
 > **Official Reference Repository for:**  
 > 1. **Kaggle Gemma 4 Developer Agent Paper Track:** [*Why Local Coding Agents Get Stuck: Graph-Guided Counterfactual Context Reset (G-CCR) & Phase-Adaptive Thinking for Quantized Gemma 4*](https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/writeups/gemma-4-loop-breaker-ccr-and-trap-25-benchmark)  
 > 2. **Hands-On Google Codelab:** *Dynamic Multi-LoRA Hot-Swapping & CI/CD Agent Evaluation (`adk eval`) on Cloud Run GPUs with Gemma 4 & vLLM*
@@ -73,6 +74,24 @@ flowchart TD
     L1 & L2 & L3 --> V_Swap
     V_Base --> V_Swap <--> ADK
     ADK --> E_ADK --> E_Score
+    style Train fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style Registry fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style L1 fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style lora fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
+    style L2 fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style L3 fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style Serve fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style GPU fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
+    style V_Base fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style Weights fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style V_Swap fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style Router fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
+    style ADK fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style Eval fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style E_ADK fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style E_Score fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
+    style Trajectory fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style ROUGE fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
 ```
 
 ![Multi-LoRA Architecture](assets/multilora_cloud_run_gpu_arch.jpg)
@@ -173,28 +192,3 @@ python3 gemma4_loop_breaker/evaluate_benchmark.py --tasks benchmarks/trap_tasks_
 | ADK Eval Stage 1–3 Verdict | Validated `EvalSuiteSummary` JSON |
 | :---: | :---: |
 | ![Eval Verdict](assets/screenshots/07_terminal_eval_stages_verdict.png) | ![Eval JSON](assets/screenshots/08_terminal_eval_json_output.png) |
-
-<!-- AUTHOR_SIGNATURE_START -->
----
-
-<div align="center">
-
-## 👩‍💻 About the Author
-
-**Robina Mirbahar — AI/ML Google Developer Expert (GDE) 🇵🇰 & Google Cloud Champion Innovator**  
-*Co-Author of **AI Engineering: From Classical ML to RAG & Agentic AI Systems** (2026) · Author of **Cloud Computing Voyage** · Microsoft Certified Trainer · Mentor @ Google for Startups & Women Techmakers Ambassador*
-
-[![GitHub](https://img.shields.io/badge/GitHub-RobinaMirbahar-181717?style=for-the-badge&logo=github)](https://github.com/RobinaMirbahar)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Robina_Mirbahar-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/robinamirbahar)
-[![Kaggle](https://img.shields.io/badge/Kaggle-@robinamirbahar-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/robinamirbahar)
-[![GDE Profile](https://img.shields.io/badge/Google_Developer_Expert-Profile-4285F4?style=for-the-badge&logo=google)](https://g.dev/RobinaMirbahar?utm_campaign=deveco_gdemembers&utm_source=deveco)
-[![Medium](https://img.shields.io/badge/Medium-@robinamirbahar-000000?style=for-the-badge&logo=medium)](https://medium.com/@robinamirbahar)
-[![DEV.to](https://img.shields.io/badge/DEV.to-robinamirbahar-0A0A0A?style=for-the-badge&logo=devdotto)](https://dev.to/robinamirbahar)
-[![YouTube](https://img.shields.io/badge/YouTube-@RobinaCodesAI-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/@RobinaCodesAI)
-[![X](https://img.shields.io/badge/X-@RobinaMirbahar-000000?style=for-the-badge&logo=x)](https://x.com/RobinaMirbahar)
-[![Amazon Author](https://img.shields.io/badge/Amazon_Book-Cloud_Computing_Voyage-FF9900?style=for-the-badge&logo=amazon)](https://www.amazon.com/dp/B0D146249R)
-
-</div>
-
-<!-- AUTHOR_SIGNATURE_END -->
-
