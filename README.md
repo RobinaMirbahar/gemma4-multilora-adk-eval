@@ -2,7 +2,6 @@
 
 [![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset%20Suite-FFD21E)](https://huggingface.co/datasets/robinamirbahar/gemma4-loop-breaker-benchmark-suite) [![Kaggle Writeup](https://img.shields.io/badge/Kaggle-Gemma_4_Paper_Track-20BEFF?logo=kaggle)](https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/writeups/gemma-4-loop-breaker-ccr-and-trap-25-benchmark)
 
-> **1-Line Hugging Face Dataset Loader:** `load_dataset("robinamirbahar/gemma4-loop-breaker-benchmark-suite", "trap_25_tasks")` ([Explore all 14 tables on Hugging Face Hub](https://huggingface.co/datasets/robinamirbahar/gemma4-loop-breaker-benchmark-suite))
 
 ![Cover](assets/cover.multilora.v2.jpg)
 
@@ -17,10 +16,8 @@
 </div>
 
 > **Author & Architect:** [Robina Mirbahar](https://github.com/RobinaMirbahar) ([Google Developer Expert in Cloud & AI](https://developers.google.com/profile/u/106918534005910641104?utm_campaign=deveco_gdemembers&utm_source=deveco) · Google Cloud Champion Innovator · Co-Author of [*AI Engineering*](https://www.amazon.com/dp/B0GWCZWCF4))  
-> 📚 **Architecture Track:** Dynamic Multi-LoRA Hot-Swapping & CI/CD Agent Trajectory Evaluation (dk eval) on Cloud Run GPUs  
-> **Official Reference Repository for:**  
-> 1. **Kaggle Gemma 4 Developer Agent Paper Track:** [*Why Local Coding Agents Get Stuck: Graph-Guided Counterfactual Context Reset (G-CCR) & Phase-Adaptive Thinking for Quantized Gemma 4*](https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/writeups/gemma-4-loop-breaker-ccr-and-trap-25-benchmark)  
-> 2. **Hands-On Google Codelab:** *Dynamic Multi-LoRA Hot-Swapping & CI/CD Agent Evaluation (`adk eval`) on Cloud Run GPUs with Gemma 4 & vLLM*
+> 📚 **Companion Paper & Dataset:** [Kaggle Gemma 4 Developer Agent Paper Writeup](https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/writeups/gemma-4-loop-breaker-ccr-and-trap-25-benchmark) · [Hugging Face Dataset (gemma4-loop-breaker-benchmark-suite)](https://huggingface.co/datasets/robinamirbahar/gemma4-loop-breaker-benchmark-suite)  
+> **Core Stack:** Open-Weights [Google Gemma 4](https://ai.google.dev/gemma/docs?utm_campaign=deveco_gdemembers&utm_source=deveco), [Google Agent Development Kit (ADK)](https://google.github.io/adk-docs/?utm_campaign=deveco_gdemembers&utm_source=deveco) (dk eval), [Google Cloud Run NVIDIA L4 GPUs](https://cloud.google.com/run/docs?utm_campaign=deveco_gdemembers&utm_source=deveco), vLLM Multi-LoRA, and Cloud Storage FUSE.
 
 ---
 
