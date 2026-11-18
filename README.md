@@ -74,24 +74,6 @@ flowchart TD
     L1 & L2 & L3 --> V_Swap
     V_Base --> V_Swap <--> ADK
     ADK --> E_ADK --> E_Score
-    style Train fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style Registry fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style L1 fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style lora fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
-    style L2 fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style L3 fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style Serve fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style GPU fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
-    style V_Base fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style Weights fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style V_Swap fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style Router fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
-    style ADK fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style Eval fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style E_ADK fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style E_Score fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
-    style Trajectory fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style ROUGE fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
 ```
 
 ![Multi-LoRA Architecture](assets/multilora_cloud_run_gpu_arch.jpg)
